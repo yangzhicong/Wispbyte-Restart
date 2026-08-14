@@ -2,7 +2,7 @@ name: Wispbyte 自动重启
 
 on:
   schedule:
-    - cron: '20 3 * * *'
+    - cron: '20 3 */7 * *'
   workflow_dispatch:
     inputs:
       accounts:
